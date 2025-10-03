@@ -10,12 +10,7 @@ const AboutPage = ()=>{
     const { t } = useTranslation();
     return(
         <>
-        <motion.section
-          initial={{ opacity: 0, y: 60 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-        >
+        <section>
             <div className={styles.AboutHeader}>
                 <div>
                     <h1 className="minTeitle">{t('about.title')}</h1>
@@ -25,7 +20,7 @@ const AboutPage = ()=>{
                 <MissionSection />
                 <StatsCards />
             </div>
-        </motion.section>
+        </section>
         </>
     )
 }
