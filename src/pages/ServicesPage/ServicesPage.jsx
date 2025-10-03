@@ -274,7 +274,7 @@ const ServicesPage = () => {
         </motion.div>
       </section>
 
-      {/* Process Section */}
+      {/* Process Section
       <section className={styles.processSection}>
         <motion.div 
           className={styles.sectionHeader}
@@ -328,29 +328,8 @@ const ServicesPage = () => {
             </motion.div>
           ))}
         </motion.div>
-      </section>
+      </section> */}
 
-      {/* CTA Section */}
-      <section className={styles.ctaSection}>
-        <motion.div 
-          className={styles.ctaContent}
-          variants={itemVariants}
-        >
-          <h2 className={styles.ctaTitle}>Ready to Get Started?</h2>
-          <p className={styles.ctaDescription}>
-            Contact us today for a free consultation and let us help you achieve your goals.
-          </p>
-          <div className={styles.ctaButtons}>
-            <Link to="/contact-us" className={styles.ctaPrimary}>
-              Contact Us Now
-              <MdArrowForward className={styles.buttonIcon} />
-            </Link>
-            <Link to="/about-us" className={styles.ctaSecondary}>
-              Learn About Us
-            </Link>
-          </div>
-        </motion.div>
-      </section>
 
     </motion.section>
   );

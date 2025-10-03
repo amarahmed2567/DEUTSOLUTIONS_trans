@@ -1,6 +1,7 @@
-
-.header{
+.servicesSection{
   text-align: start;
+}
+.header{
   padding: 2rem 0;
 }
 :lang(ar)  .headline {
@@ -36,6 +37,7 @@
   font-style: italic;
   line-height: 1.6;
   width: 60%;
+  
 }
   
 .SwaperContenar{
@@ -89,6 +91,11 @@
   .servicesSection {
     padding: 3rem 0;
     min-height: auto;
+    text-align: center;
+  }
+  .subtext{
+    margin: 0 auto;
+    text-align: center;
   }
   .headline {
     font-size: 1.6rem;
