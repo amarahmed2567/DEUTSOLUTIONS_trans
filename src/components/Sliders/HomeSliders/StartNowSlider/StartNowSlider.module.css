@@ -1,0 +1,221 @@
+.sectionBackground{
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s ease;
+}
+
+.sliderContainer {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem  0;
+  margin: 0 8px;
+  height: 160px;
+  overflow: visible;
+}
+
+.gradientPill {
+  position: absolute;
+  top: 50%;
+  width: 100vw;
+  height: 70px;
+  border-radius: 999px;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+/* Additional styling for full-width pills */
+.gradientPill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Ensure pills extend beyond container boundaries */
+.sectionBackground {
+  overflow: visible;
+}
+
+.gradientPill {
+  overflow: visible;
+}
+
+.leftPill {
+  left: -10vw;
+  width: 30%;
+  background: var(--primary-color);
+}
+.rightPill {
+  background: var(--primary-color);
+  right: -10vw;
+  width: 30%;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 0 2px 4px rgba(240, 240, 240, 0.5);
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #111;
+  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8);
+}
+
+/* Custom button styling for dark background */
+.content .BtnSmall {
+  background: linear-gradient(90deg, #222 60%, #888 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+ .BtnSmall:hover {
+  background: linear-gradient(90deg, #ff6b0a 0%, #ffc107 100%);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.pillAnimated {
+  transform: translateY(-50%) scale(1.15) skewX(-8deg);
+  box-shadow: 0 0 32px 8px rgba(255, 107, 10, 0.18), 0 0 0 4px rgba(255, 193, 7, 0.08);
+  opacity: 0.92;
+  transition: all 0.5s cubic-bezier(0.4, 0.2, 0.2, 1.1);
+}
+
+
+/* Tablet Responsive */
+@media (max-width: 1024px) {
+  .sectionBackground {
+    border-radius: 16px;
+    border-width: 1.5px;
+  }
+  
+  .sliderContainer {
+    padding: 42px 0 35px 0;
+    min-height: 150px;
+  }
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+  
+  .content .Btn-small {
+    font-size: 0.85rem;
+    padding: 0.7em 1.8em;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .sectionBackground {
+    border-radius: 12px;
+    border-width: 1px;
+  }
+  
+  .sliderContainer {
+    padding: 15rem  0;
+    min-height: 110px;
+    margin: 0 2px;
+  }
+  .heading {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    
+  }
+  
+  .content .BtnSmall {
+    font-size: 1rem;
+    padding: 0.6em 1.5em;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionBackground {
+    border-radius: 8px;
+    border-width: 1px;
+  }
+  
+  .sliderContainer {
+    padding: 24px 0 16px 0;
+    min-height: 80px;
+  }
+  .heading {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+.leftPill {
+  height: 20%;
+}
+
+.rightPill {
+  background: var(--primary-color);
+  right: -10vw;
+  height: 20%;
+}
+
+  
+  .content .BtnSmall {
+    font-size: 0.75rem;
+    padding: 0.5em 1.2em;
+  }
+}
+
+@media (max-width: 360px) {
+  .sectionBackground {
+    border-radius: 6px;
+    border-width: 1px;
+  }
+  
+  .sliderContainer {
+    padding: 16px 0 8px 0;
+    min-height: 60px;
+  }
+  .gradientPill {
+    width: 100vw;
+    height: 12px;
+  }
+  .leftPill {
+    left: -50vw;
+  }
+  .rightPill {
+    right: -50vw;
+  }
+  .heading {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+  }
+  
+  .content .BtnSmall {
+    font-size: 0.7rem;
+    padding: 0.4em 1em;
+  }
+} 

@@ -1,0 +1,163 @@
+/* Scroll Animation */
+.scroll-animate {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+  will-change: opacity, transform;
+}
+.scroll-animate.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+a{
+  color: #000;
+   outline: none;
+   text-decoration: none;
+}
+.a:focus{
+  outline: none;
+}
+
+
+/* Global Responsive Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
+}
+
+/* Responsive Typography */
+.text-responsive {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.heading-responsive {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+/* Responsive Spacing */
+.section-padding {
+  padding: clamp(2rem, 5vw, 5rem) 0;
+}
+
+/* Responsive Grid */
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .grid-responsive {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Responsive Flex */
+.flex-responsive {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .flex-responsive {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+/* Hide elements on mobile */
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+/* Hide elements on desktop */
+@media (min-width: 769px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+/* Touch-friendly buttons */
+@media (max-width: 768px) {
+  button, .btn, a[role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .container {
+  direction: rtl;
+}
+
+[dir="rtl"] .flex-responsive {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .grid-responsive {
+  direction: rtl;
+}
+
+/* Language switcher positioning for RTL */
+[dir="rtl"] .languageSwitcherContainer {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+
+/* Loading states */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive tables */
+table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  table {
+    display: table;
+  }
+}

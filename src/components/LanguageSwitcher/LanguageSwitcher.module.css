@@ -1,0 +1,197 @@
+.languageSwitcher {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 10000000;
+
+}
+
+.globeButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  position: relative;
+}
+
+.globeButton:hover {
+  transform: translateY(-1px);
+}
+
+.globeButton:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.currentFlag {
+  font-size: 1px;
+}
+
+.chevronIcon {
+  font-size: 10px;
+  width: 10px;
+  color: #999;
+  transition: transform 0.2s ease;
+}
+
+.chevronIcon.rotated {
+  transform: rotate(180deg);
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  min-width: 140px;
+  z-index: 1000;
+  animation: slideDown 0.2s ease-out;
+  backdrop-filter: blur(10px);
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.langOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 10px;
+  font-weight: 500;
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  transform: scale(1);
+}
+
+.langOption:first-child {
+  border-radius: 8px 8px 0 0;
+}
+
+.langOption:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
+.langOption:hover {
+  background: #f5f5f5;
+}
+
+.langOption.active {
+  background: linear-gradient(90deg, #ff5e00 0%, #ffb800 100%);
+  color: white;
+}
+
+.flag {
+  font-size: 8px;
+
+}
+
+.langName {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+
+.langOption.active .langName {
+  color: #fff;
+}
+
+/* RTL Support */
+[dir="rtl"] .languageSwitcher {
+  direction: rtl;
+}
+
+[dir="rtl"] .dropdown {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .langOption {
+  text-align: right;
+}
+
+[dir="rtl"] .currentFlag {
+  margin-left: 0;
+  margin-right: 4px;
+}
+
+[dir="rtl"] .chevronIcon {
+  margin-left: 0;
+  margin-right: 4px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .globeButton {
+    padding: 6px 8px;
+  }
+  
+  .globeIcon {
+    font-size: 16px;
+  }
+  
+  .currentFlag {
+    font-size: 14px;
+  }
+  
+  .chevronIcon {
+    font-size: 8px;
+  }
+  
+  .dropdown {
+    min-width: 120px;
+  }
+  
+  .langName {
+    font-size: 12px;
+  }
+  
+  .langOption {
+    padding: 8px 10px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .globeButton {
+    padding: 5px 6px;
+  }
+  
+  .globeIcon {
+    font-size: 14px;
+  }
+  
+  .currentFlag {
+    font-size: 12px;
+  }
+  
+  .chevronIcon {
+    font-size: 7px;
+  }
+  
+  .dropdown {
+    min-width: 100px;
+  }
+} 

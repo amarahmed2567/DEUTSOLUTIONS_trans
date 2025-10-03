@@ -1,0 +1,140 @@
+
+.header{
+  text-align: start;
+  padding: 2rem 0;
+}
+:lang(ar)  .headline {
+  line-height: 1;
+}
+.headline {
+  font-size:2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  gap: 1.5rem;
+  }
+
+.gradient {
+  background: linear-gradient(63.61deg, #F9B434 14.16%, #E90004 86.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+
+}
+.bold {
+  font-weight: 700;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.subtext {
+  font-size: 1rem;
+  color: #222;
+  font-style: italic;
+  line-height: 1.6;
+  width: 60%;
+}
+  
+.SwaperContenar{
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden !important;
+}
+.servicesLearnMoreBtn{
+  margin-top: 3rem;
+  text-align: center;
+}
+.btnExploremore{
+  background: linear-gradient(90deg, #222 60%, #888 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: .9rem;
+  padding: 0.7em 2em;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem 0 1.5rem 0;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.4s cubic-bezier(.4,0,.2,1);
+
+}
+.btnExploremore:hover{
+  background: linear-gradient(90deg, #d90429 60%, #ff6600 100%);
+  transform: translateY(-2px) scale(.99);
+  color: #fff;
+}
+
+/* Tablet Responsive */
+@media (max-width: 1024px) {
+  .servicesSection {
+    padding: 4rem 0;
+  }
+  .headline {
+    font-size: 1.8rem;
+  }
+  .bold {
+    font-size: 1.9rem;
+  }
+  .subtext {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .servicesSection {
+    padding: 3rem 0;
+    min-height: auto;
+  }
+  .headline {
+    font-size: 1.6rem;
+  }
+  .bold {
+    font-size: 1.7rem;
+  }
+  .subtext {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicesSection {
+    padding: 2rem 0;
+  }
+  .header{
+    text-align: center;
+  }
+  .headline {
+    font-size: 1.4rem;
+  }
+  .bold {
+    font-size: 1.5rem;
+  }
+  .subtext {
+
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+  .headline {
+    font-size: 1.3rem;
+  }
+  .bold {
+    font-size: 1.4rem;
+  }
+  .subtext {
+    font-size: 0.85rem;
+  }
+}
+
+
+

@@ -1,0 +1,291 @@
+{
+  "navigation": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "contactUs": "Contact us"
+  },
+  "home": {
+    "hero": {
+      "title": "Certified & Sworn Translation ",
+      "min-var-text":"We are specialized in",
+      "description": "We provide professional translations (Arabic ↔ German ↔ English) and assist with study, work, and immigration to Germany.",
+      "cta": "Get Started"
+    },
+    "textHomeSlider": {	
+      "title": "Your Trusted Partner in",
+      "spanText": "Certified Translation",
+      "description": "We are deutsolutions, a company specialized in certified and sworn translations since 2016. We deliver accurate translations between Arabic, German, and English, and provide expert support for immigration, studies, and family reunification. With years of proven experience, we guarantee quality and official recognition for all your documents in Germany and abroad."
+    },
+    "startYourJourney": "Start Your Journey",
+    "takeTheNextStep": "Ready to Take the Next Step?",
+    "stats": {
+      "clients": "Clients",
+      "translations": "Translations",
+      "countries": "Countries"
+    },
+    "animatedWords": ["Certified & Sworn Translations", "Legalization & Immigration Support", "German for Study & Work"]
+  },
+  "about": {
+    "title": "About Us",
+    "title2": "Who We Are",
+    "subtitle":"Connecting People Through Language",
+    "subtitle2": "Meet the team behind the vision.",
+    "description": "At deutsolutions, we believe that every document is more than words — it’s a bridge to opportunities, education, and a better future. Our mission is to break language barriers and make your journey to Germany smoother, clearer, and more successful.",
+    "learnMore": "Learn more",
+    "stats": {
+      "projects": "Projects Completed",
+      "countries": "Countries Served",
+      "clients": "Happy Clients",
+      "success": "Success Rate"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Explore Our Core Services",
+    "description": "From certified translations to expert migration support we make your journey to Germany simple, fast, and reliable.",
+    "exploremore":"Explore More Services",
+    "items": {
+      "translation": {
+        "title": "Certified Translations",
+        "description": "COfficial and reliable translations for all your documents from certificates to contracts accepted in Germany and worldwide.",
+        "longDescription": "From visa guidance to document preparation, we support you at every step of your migration journey to Germany. Our experts make the process smooth and stress-free. We provide certified and culturally accurate translation services for legal, technical, and business documents. Our team ensures your message is clear and effective in Arabic, English, and German. Our German language coaching is designed for all levels, with a focus on practical communication and cultural understanding. Start your language journey with us.\n\nWe also offer fast turnaround times and competitive pricing to meet your urgent needs. Our experienced linguists and consultants are dedicated to delivering high-quality results, whether you are an individual, a business, or an institution. Trust us to bridge language and cultural gaps, making your communication seamless and effective across borders.",
+        "button": "Start Now"
+      },
+      "migration": {
+        "title": "Immigration & Family Reunification",
+        "description": "Smooth guidance through visas, family reunification, and all legal paperwork with trusted expertise.",
+        "longDescription": "Visa guidance, document translation, and full support to help you move to Germany smoothly. Our team assists you at every stage, from preparing your documents to settling in your new home. We offer personalized consultations, up-to-date legal advice, and step-by-step support to ensure a stress-free migration process. With our extensive experience and network, we make your transition to Germany efficient and successful, whether you are moving for work, study, or family reunification.",
+        "button": "Start Now"
+      },
+      "german": {
+        "title": "German Language Courses",
+        "description": "Learn German with confidence through structured courses tailored to your goals from daily life to academic and professional success.",
+        "longDescription": "Beginner-friendly German lessons, tailored for migrants. Our courses cover all levels and focus on practical communication and cultural understanding. Learn from experienced instructors using modern teaching methods and interactive materials. Whether you are preparing for work, study, or daily life in Germany, our coaching helps you gain confidence and fluency in the German language.",
+        "button": "Start Now"
+      }
+    },
+    "learnMore": "learn more"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What Our Clients Say",
+    "description": "Real stories from people we've helped — in migration, translation, and tech.",
+    "items": [
+      {
+        "name": "Ahmed S.",
+        "country": "Egypt",
+        "text": "Your team helped me move to Germany without stress. Everything was smooth and professional. Thank you!"
+      },
+      {
+        "name": "Lisa M.",
+        "country": "Germany",
+        "text": "The AI agent you built saved us hours every day. Highly efficient and easy to use!"
+      },
+      {
+        "name": "Khalid R.",
+        "country": "Dubai",
+        "text": "We needed urgent certified translations — got them fast and spot on. Excellent service!"
+      }
+    ]
+  },
+  "clients":{
+    "clientstitle":"Our Clients",
+    "clientsDesc":"We proudly support individuals and businesses in achieving their global communication goals. Our clients rely on our expertise to transform documents into precise, culturally adapted, and officially recognized translations.",
+    "clientssubtitle":"Trusted Worldwide"
+  },
+  "footer": {
+    "subscribeTitle": "Stay Updated with DEUTSOLUTIONS",
+    "subscribeDesc": "Get the latest insights on certified translations, German migration, and study opportunities.",
+    "subscribePlaceholder": "Enter your email",
+    "subscribeBtn": "Subscribe",
+    "subscribeSuccess": "Subscription Successful!",
+    "subscribeSuccessMessage": "Thank you for subscribing! You'll receive our latest updates and insights.",
+    "subscribeError": "Subscription Error",
+    "subscribeErrorMessage": "Something went wrong. Please try again.",
+    "subscribeLoading": "Subscribing...",
+    "services": {
+      "title": "Services",
+      "items": [
+        "Translation Services",
+        "German Migration Support",
+        "Online Courses"
+        ]
+    },
+    "company": {
+      "title": "Company",
+      "items": [
+        "About Us",
+        "Our Process",
+        "Success Stories",
+        "Careers",
+        "Partners",
+        "Blog"
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "items": [
+        "Help Center",
+        "Documentation",
+        "API Reference",
+        "System Status",
+        "Contact Support",
+        "Community"
+      ]
+    },
+    "legal": {
+      "title": "Legal",
+      "items": [
+        "Privacy Policy",
+        "Terms of Service",
+        "Cookie Policy",
+        "GDPR Compliance",
+        "Data Protection",
+        "Disclaimer"
+      ]
+    },
+    "brandDesc": "Building futures through language, translation, and trusted guidance to Germany.",
+    "copyright": "All rights reserved.",
+    "availableIn": "Available in:"
+  },
+  "notFound": {
+    "title": "Oops!",
+    "subtitle": "We couldn't find the page you were looking for",
+    "goHome": "Go home"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!"
+  },
+  "cards": {
+    "ai": {
+      "title": "AI Your Work",
+      "desc": "Automation & Intelligence"
+    },
+    "legal": {
+      "title": "Legal Translation",
+      "desc": "Certified & Precise"
+    },
+    "study": {
+      "title": "Study in Germany",
+      "desc": "Migration Support"
+    },
+    "corporate": {
+      "title": "Corporate Solutions",
+      "desc": "Digital Transformation"
+    }
+  },
+  "mission": {
+    "subtitle": "Our Mission",
+    "title":"Guiding Your Journey to Germany",
+    "intro": "Our mission is to empower people on their journey to Germany. Through certified translations, trusted migration guidance, and support for education and family reunification, we make every step clear, reliable, and stress-free."
+  },
+  "vision": {
+    "subtitle": "Our vision",
+    "title":"A World Without Language Limits",
+    "intro": "We believe that no dream should be stopped by language. Our vision is to create a future where opportunities in migration, education, and family reunification are open to everyone supported by certified translation and human care."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to start your journey? Let's discuss how we can help you achieve your goals.",
+    "form": {
+      "title": "Send us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours.",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred while sending. Please try again."
+  
+    },
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "Get in touch with us through any of these channels.",
+      "addressTitle":"Address",
+      "emailTitle":"Email",
+      "phoneTitle":"phone",
+      "phoneValue":"+49 123 456789",
+      "emailValue":"info@deutsolutions.com",
+      "addressValue":"123 Main St, Berlin, Germany"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "map": {
+      "title": "Find Us"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "What services do you offer?",
+      "a1": "We offer German translation, migration support, AI development, and German language coaching services.",
+      "q2": "How long does translation take?",
+      "a2": "Translation time depends on document length and complexity. We typically deliver within 1-3 business days.",
+      "q3": "Do you provide certified translations?",
+      "a3": "Yes, we provide certified translations that are accepted by German authorities and institutions.",
+      "q4": "What are your working hours?",
+      "a4": "We work Sunday to Thursday, 9:00 AM to 6:00 PM UAE time. Emergency services available 24/7."
+    }
+  },
+  "privacy": {
+    "banner": {
+      "message": "We use cookies to improve your experience. By using the site, you agree to this.",
+      "accept": "Accept",
+      "reject": "Reject"
+    }
+  },
+  "signup": {
+    "title": "Sign Up",
+    "subtitle": "Please fill in your details to create an account",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "selectService": "Select Service",
+    "service": {
+      "translation": "Translation",
+      "migration": "Migration",
+      "ai": "AI",
+      "other": "Other"
+    },
+    "submit": "Sign Up",
+    "submitting": "Signing Up...",
+    "haveAccount": "Already have an account?",
+    "login": "Login"
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "content": "At DEUTSOLUTIONS, located at Dubai Silicon Oasis, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website and services, including translation, migration support, AI solutions, and language training.\n\nWe collect personal data such as your name, email address, and phone number when you contact us or use our services. Your information is used solely to provide and improve our services, respond to your inquiries, and comply with legal obligations.\n\nWe do not sell or share your personal data with third parties except as required by law or to fulfill our services.\n\nFor any questions about your privacy, please contact us at deutsolutions@gmail.com or call +971 50 330 3847."
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "content": "Welcome to DEUTSOLUTIONS. By using our website and services, you agree to the following terms:\n\n1. Services: We provide translation, migration support, AI development, and language training.\n2. User Responsibilities: You agree to provide accurate information and use our services lawfully.\n3. Intellectual Property: All content on this site is owned by DEUTSOLUTIONS.\n4. Limitation of Liability: We strive for accuracy but do not guarantee error-free content.\n5. Contact: For questions, email deutsolutions@gmail.com or call +971 50 330 3847.\n\nThese terms are governed by UAE law."
+    },
+    "cookiePolicy": {
+      "title": "Cookie Policy",
+      "content": "DEUTSOLUTIONS uses cookies to enhance your experience on our website. Cookies help us analyze site traffic and personalize content.\n\nYou can manage or disable cookies in your browser settings. By continuing to use our site, you consent to our use of cookies.\n\nFor more information, contact us at deutsolutions@gmail.com."
+    },
+    "gdprCompliance": {
+      "title": "GDPR Compliance",
+      "content": "DEUTSOLUTIONS is committed to data protection and privacy in accordance with the General Data Protection Regulation (GDPR).\n\nWe process your data lawfully, transparently, and for legitimate purposes. You have the right to access, correct, or delete your data.\n\nTo exercise your rights or for GDPR-related inquiries, email deutsolutions@gmail.com."
+    },
+    "dataProtection": {
+      "title": "Data Protection",
+      "content": "We take data protection seriously at DEUTSOLUTIONS. Your personal information is stored securely and only accessible to authorized personnel.\n\nWe implement technical and organizational measures to prevent unauthorized access, loss, or misuse of your data.\n\nFor any concerns, contact us at deutsolutions@gmail.com or call +971 50 330 3847."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "The information provided by DEUTSOLUTIONS on this website is for general informational purposes only. While we strive for accuracy, we make no warranties regarding completeness or reliability.\n\nDEUTSOLUTIONS is not liable for any losses or damages resulting from the use of our website or services.\n\nFor official advice, please contact us directly at deutsolutions@gmail.com."
+    }
+  }
+} 

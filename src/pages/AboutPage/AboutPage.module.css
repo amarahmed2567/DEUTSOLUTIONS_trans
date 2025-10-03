@@ -1,0 +1,88 @@
+.AboutHeader{
+    padding-top: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 100vh;
+}
+
+.AboutHeader > div:first-child {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .AboutHeader {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .AboutHeader {
+        padding-top: 2rem;
+        padding-left: 16px;
+        padding-right: 16px;
+        min-height: auto;
+    }
+    
+    .AboutHeader > div:first-child {
+        margin-bottom: 2rem;
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .AboutHeader {
+        padding-top: 1.5rem;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .AboutHeader > div:first-child {
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+}
+
+/* Tablet Landscape */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .AboutHeader {
+        padding-top: 2.5rem;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 1201px) {
+    .AboutHeader {
+        padding-top: 4rem;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+    .AboutHeader {
+        padding-top: 1rem;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .AboutHeader > div:first-child {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Landscape Orientation for Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .AboutHeader {
+        padding-top: 1rem;
+    }
+    
+    .AboutHeader > div:first-child {
+        margin-bottom: 1rem;
+    }
+}

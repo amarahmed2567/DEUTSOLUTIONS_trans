@@ -1,0 +1,567 @@
+
+/* Hero Section */
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Main Services Section */
+.mainServicesSection {
+  padding: 6rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.sectionSubtitle {
+  font-size: 1.125rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+}
+
+.serviceCard {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.serviceCard:hover,
+.serviceCard.active {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border-color: var(--service-color);
+}
+
+.serviceCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--service-color), #fbbf24);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover::before,
+.serviceCard.active::before {
+  transform: scaleX(1);
+}
+
+.serviceImage {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.serviceImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.serviceCard:hover .serviceImage img {
+  transform: scale(1.05);
+}
+
+.serviceOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serviceIconContainer {
+  background: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.serviceIcon {
+  font-size: 2rem;
+  color: var(--service-color);
+}
+
+.serviceContent {
+  padding: 2rem;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.serviceDescription {
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.serviceFeatures h4,
+.serviceBenefits h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.75rem;
+}
+
+.serviceFeatures ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.serviceFeatures li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #4b5563;
+}
+
+.checkIcon {
+  color: #10b981;
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.benefitItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.starIcon {
+  color: #fbbf24;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.serviceActions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  flex: 1;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.primaryButton {
+  background: linear-gradient(135deg, var(--service-color), #fbbf24);
+  color: white;
+}
+
+.primaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.secondaryButton {
+  background: transparent;
+  color: #64748b;
+  border: 2px solid #e2e8f0;
+}
+
+.secondaryButton:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.buttonIcon {
+  font-size: 1.1rem;
+}
+
+/* Additional Services */
+.additionalServicesSection {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.additionalGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.additionalCard {
+  background: #f8fafc;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.additionalCard:hover {
+  transform: translateY(-5px);
+  background: white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--service-color);
+}
+
+.additionalIconContainer {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--service-color), #fbbf24);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.additionalIcon {
+  font-size: 2rem;
+  color: white;
+}
+
+.additionalTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.additionalDescription {
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.additionalButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--service-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.additionalButton:hover {
+  transform: translateX(5px);
+}
+
+/* Process Section */
+.processSection {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  color: white;
+}
+
+.processSteps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.processStep {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.processStep:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.stepNumber {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fbbf24;
+  margin-bottom: 1rem;
+}
+
+.stepIcon {
+  font-size: 2.5rem;
+  color: #fbbf24;
+  margin-bottom: 1rem;
+}
+
+.stepTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.stepDescription {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.ctaDescription {
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary,
+.ctaSecondary {
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ctaPrimary {
+  background: white;
+  color: #f59e0b;
+}
+
+.ctaPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.ctaSecondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.ctaSecondary:hover {
+  background: white;
+  color: #f59e0b;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .heroTitle {
+    font-size: 3rem;
+  }
+  
+  .servicesGrid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 6rem 1rem 3rem;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .heroDescription {
+    font-size: 1.125rem;
+  }
+  
+  .mainServicesSection,
+  .additionalServicesSection,
+  .processSection,
+  .ctaSection {
+    padding: 4rem 1rem;
+  }
+  
+  .servicesGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .processSteps {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ctaPrimary,
+  .ctaSecondary {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .serviceActions {
+    flex-direction: column;
+  }
+  
+  .benefitsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] .serviceFeatures li,
+[dir="rtl"] .benefitItem {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .checkIcon,
+[dir="rtl"] .starIcon {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+[dir="rtl"] .additionalButton:hover {
+  transform: translateX(-5px);
+}
+
+/* Animation Enhancements */
+.serviceCard {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Focus States for Accessibility */
+.primaryButton:focus,
+.secondaryButton:focus,
+.ctaPrimary:focus,
+.ctaSecondary:focus,
+.additionalButton:focus {
+  outline: 2px solid #fbbf24;
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  .servicesPage {
+    background: white;
+  }
+  
+  .heroSection {
+    background: white;
+    color: black;
+  }
+  
+  .processSection,
+  .ctaSection {
+    background: white;
+    color: black;
+  }
+}

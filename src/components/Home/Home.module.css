@@ -1,0 +1,224 @@
+/* ,,,,,, */
+
+.HeroSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 8rem 0 0 0;
+    gap: 2rem;
+  }
+  
+  .HeroContent {
+    flex: 1 1 350px;
+    min-height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+  :lang(ar) .HeroContent {
+      line-height: 1.6;
+    }
+  .HeroContentText {
+    font-size: 1rem;
+    font-weight: bold;
+    }
+
+    :lang(ar) .HeroContentText {
+      max-width: 80%;
+    }
+  .Subtext {
+    font-size: 1.05rem;
+    color: #444;
+    font-style: italic;
+    width: 70%;
+    margin: 0.5rem 0;
+  }
+  .StatsRow {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: auto;
+  }
+  .StatsNumber {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #111;
+  }
+  .StatsNumberText{
+    background: linear-gradient(180deg, #474444 0%, #ADA5A5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+
+  .HeroImage {
+    /* flex: 1 1 350px; */
+    max-width: 600px;
+    /* position: relative; */
+    display: flex;
+    align-items: start;
+    justify-content: right;
+  }
+
+  .HeroImage .HerImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Tablet Responsive */
+  @media (max-width: 1024px) {
+    .HeroContent h1 {
+      font-size: 2rem;
+    }
+    .CtaButton {
+      width: 60%;
+      font-size: 1rem;
+      padding: 0.6em 1.8em;
+    }
+    .StatsRow {
+      gap: 2rem;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .HeroSection {
+      flex-direction: column;
+      align-items: center;
+      gap: 2.5rem;
+      min-height: auto;
+      padding: 2rem 0;
+    }
+    .HeroContent {
+      max-width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+    .HeroContent h1 {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .Subtext {
+      text-align: center;
+    }
+    .CtaButton {
+      width: 70%;
+    }
+    .StatsRow {
+      justify-content: center;
+    }
+    .HeroImage {
+      min-width: 220px;
+      min-height: 220px;
+      max-width: 100%;
+    }
+  }
+
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .HeroSection {
+      gap: 2rem;
+      padding: 1rem 0;
+      align-items: center;
+    }
+    .HeroContent {
+      text-align: center; 
+      align-items: center;
+    }
+    .HeroContent-text {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .Subtext {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .CtaButton {
+      width: 70%;
+      font-size: 0.95rem;
+      padding: 0.5em 1.5em;
+    }
+    .StatsRow {
+      margin-top: 3rem;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .StatsNumber {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+    .HeroImage {
+      min-width: 200px;
+      min-height: 100px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .HeroSection {
+      padding-top: 5rem;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .HeroContent {
+      text-align: center;
+      align-items: center;
+    }
+    .HeroContent-text {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .Subtext {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .CtaButton {
+      width: 70%;
+      font-size: 0.9rem;
+      padding: 0.5em 1.2em;
+    }
+    .StatsRow {
+      margin-top: 2rem;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .StatsNumber {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .HeroImage {
+      min-width: 180px;
+      min-height: 180px;
+    }
+  }
+
+  /* Small Mobile */
+  @media (max-width: 360px) {
+    .HeroContent {
+      text-align: center;
+      align-items: center;
+    }
+    .HeroContent h1 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .Subtext {
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    .CtaButton {
+      width: 70%;
+      font-size: 0.85rem;
+      padding: 0.4em 1em;
+    }
+    .StatsRow {
+      gap: 0.8rem;
+      justify-content: center;
+    }
+    .StatsNumber {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  } 

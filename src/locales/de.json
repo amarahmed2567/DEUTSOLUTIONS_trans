@@ -1,0 +1,292 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "aboutUs": "Über uns",
+    "services": "Dienstleistungen",
+    "contactUs": "Kontakt"
+  },
+  "home": {
+    "hero": {
+      "title": "Beglaubigte & Vereidigte Übersetzungen",
+      "min-var-text":"Wir sind spezialisiert auf",
+      "description": "Wir bieten professionelle Übersetzungen (Arabisch ↔ Deutsch ↔ Englisch) und unterstützen Sie bei Studium, Arbeit und Einwanderung nach Deutschland.",
+      "cta": "Jetzt starten"
+    },
+    "textHomeSlider": {	
+      "title": "Ihr verlässlicher Partner für ",
+      "spanText": "beglaubigte Übersetzungen",
+      "description": "Wir sind deutsolutions, ein auf beglaubigte und vereidigte Übersetzungen spezialisiertes Unternehmen seit 2016. Wir bieten präzise Übersetzungen zwischen Arabisch, Deutsch und Englisch sowie kompetente Unterstützung bei Einwanderung, Studium und Familienzusammenführung. Unsere langjährige Erfahrung garantiert höchste Qualität und offizielle Anerkennung Ihrer Dokumente in Deutschland und weltweit."
+    },
+    "startYourJourney": "Starte deine Reise",
+    "takeTheNextStep": "Bereit für den nächsten Schritt?",
+    "stats": {
+      "clients": "Kunden",
+      "translations": "Übersetzungen",
+      "countries": "Länder"
+    },
+    "animatedWords": ["Beglaubigte & Vereidigte Übersetzungen", "Unterstützung bei Legalisierung & Einwanderung", "Deutsch für Studium & Beruf"]
+  },
+  "about": {
+    "title": "Über uns",
+    "title2": "Wer wir sind",
+    "subtitle":"Menschen durch Sprache verbinden",
+    "subtitle2": "Lernen Sie das Team hinter der Vision kennen.",
+    "description": "Bei deutsolutions glauben wir, dass jedes Dokument mehr als nur Worte ist — es ist eine Brücke zu neuen Chancen, Bildung und einer besseren Zukunft. Unsere Mission ist es, Sprachbarrieren zu überwinden und Ihren Weg nach Deutschland einfacher, klarer und erfolgreicher zu gestalten.",
+    "learnMore": "Mehr erfahren",
+    "stats": {
+      "projects": "Abgeschlossene Projekte",
+      "countries": "Länder bedient",
+      "clients": "Zufriedene Kunden",
+      "success": "Erfolgsquote"
+    }
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "subtitle": "Entdecken Sie unsere Kernleistungen",
+    "description": "Von beglaubigten Übersetzungen bis hin zu professioneller Migrationsunterstützung  wir machen Ihren Weg nach Deutschland einfach, schnell und zuverlässig.",
+    "exploremore":"Weitere Dienstleistungen entdecken",
+    "items": {
+      "translation": {
+        "title": "Beglaubigte Übersetzungen",
+        "description": "Offizielle und verlässliche Übersetzungen für all Ihre Dokumente von Urkunden bis Verträgen anerkannt in Deutschland und weltweit.",
+        "longDescription": "Von der Visaberatung bis zur Dokumentenvorbereitung unterstützen wir Sie bei jedem Schritt Ihrer Migrationsreise nach Deutschland. Unsere Experten sorgen dafür, dass der Prozess reibungslos und stressfrei verläuft. Wir bieten zertifizierte und kulturell präzise Übersetzungsdienste für juristische, technische und geschäftliche Dokumente. Unser Team stellt sicher, dass Ihre Botschaft auf Arabisch, Englisch und Deutsch klar und wirkungsvoll ist. Unser Deutschunterricht ist für alle Niveaus geeignet und legt den Fokus auf praktische Kommunikation und kulturelles Verständnis. Starten Sie Ihre Sprachreise mit uns.\n\nWir bieten außerdem schnelle Bearbeitungszeiten und wettbewerbsfähige Preise, um Ihre dringenden Anforderungen zu erfüllen. Unsere erfahrenen Linguisten und Berater sind bestrebt, qualitativ hochwertige Ergebnisse zu liefern – egal ob Sie Privatperson, Unternehmen oder Institution sind. Vertrauen Sie uns, Sprach- und Kulturbarrieren zu überwinden und Ihre Kommunikation über Grenzen hinweg nahtlos und effektiv zu gestalten.",
+        "button": "Jetzt starten"
+      },
+      "migration": {
+        "title": "Einwanderung & Familiennachzug",
+        "description": "Kompetente Begleitung bei Visum, Familiennachzug und allen amtlichen Unterlagen einfach und zuverlässig.",
+        "longDescription": "Visaberatung, Dokumentenübersetzung und umfassende Unterstützung, damit Ihr Umzug nach Deutschland reibungslos verläuft. Unser Team begleitet Sie in jeder Phase – von der Vorbereitung Ihrer Unterlagen bis zur Eingewöhnung in Ihrem neuen Zuhause. Wir bieten persönliche Beratung, aktuelle rechtliche Hinweise und Schritt-für-Schritt-Begleitung für einen stressfreien Migrationsprozess. Dank unserer langjährigen Erfahrung und unseres Netzwerks gestalten wir Ihren Übergang nach Deutschland effizient und erfolgreich – egal ob Sie zum Arbeiten, Studieren oder für den Familiennachzug kommen.",
+        "button": "Jetzt starten"
+      },
+      "german": {
+        "title": "Deutschkurse",
+        "description": "Lernen Sie Deutsch mit Selbstvertrauen durch strukturierte Kurse, die auf Ihre Ziele zugeschnitten sind vom Alltag bis zum akademischen und beruflichen Erfolg.",
+        "longDescription": "Deutschkurse für Anfänger, speziell für Migranten konzipiert. Unsere Kurse decken alle Niveaus ab und legen den Fokus auf praktische Kommunikation und kulturelles Verständnis. Lernen Sie mit erfahrenen Lehrkräften, modernen Methoden und interaktiven Materialien. Ob für Arbeit, Studium oder Alltag in Deutschland – unser Coaching hilft Ihnen, Selbstvertrauen und Sprachgewandtheit in Deutsch zu gewinnen.",
+        "button": "Jetzt starten"
+      }
+    },
+    "learnMore": "Mehr erfahren"
+  },
+  "testimonials": {
+    "title": "Kundenstimmen",
+    "subtitle": "Was unsere Kunden sagen",
+    "description": "Echte Geschichten von Menschen, denen wir geholfen haben — bei Einwanderung, Übersetzung und Technologie.",
+    "items": [
+      {
+        "name": "Ahmed S.",
+        "country": "Ägypten",
+        "text": "Ihr Team hat mir beim Umzug nach Deutschland ohne Stress geholfen. Alles war reibungslos und professionell. Vielen Dank!"
+      },
+      {
+        "name": "Lisa M.",
+        "country": "Deutschland",
+        "text": "Der KI-Agent, den Sie entwickelt haben, spart uns täglich Stunden. Hocheffizient und einfach zu bedienen!"
+      },
+      {
+        "name": "Khalid R.",
+        "country": "Dubai",
+        "text": "Wir brauchten dringend beglaubigte Übersetzungen — bekamen sie schnell und punktgenau. Ausgezeichneter Service!"
+      }
+    ]
+  },
+  "clients":{
+    "clientstitle":"Unsere Kunden",
+    "clientsDesc":"Mit Stolz unterstützen wir Privatpersonen und Unternehmen dabei, ihre globalen Kommunikationsziele zu erreichen. Unsere Kunden vertrauen auf unsere Erfahrung, um Dokumente in präzise, kulturell angepasste und offiziell anerkannte Übersetzungen zu verwandeln.",
+    "clientssubtitle":"Weltweit vertraut"},
+  "footer": {
+    "subscribeTitle": "Bleiben Sie mit DEUTSOLUTIONS auf dem Laufenden",
+    "subscribeDesc": "Erhalten Sie die neuesten Einblicke in beglaubigte Übersetzungen, Migration nach Deutschland und Studienmöglichkeiten.",
+    "subscribePlaceholder": "Ihre E-Mail eingeben",
+    "subscribeBtn": "Abonnieren",
+    "subscribeSuccess": "Anmeldung erfolgreich!",
+    "subscribeSuccessMessage": "Vielen Dank für Ihre Anmeldung! Sie erhalten unsere neuesten Updates und Einblicke.",
+    "subscribeError": "Anmeldefehler",
+    "subscribeErrorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "subscribeLoading": "Anmeldung läuft...",
+    "services": {
+      "title": "Dienstleistungen",
+      "items": [
+        "Übersetzungsdienste",
+        "Deutschland Migration",
+        "Sprachkurse"
+      ]
+    },
+    "company": {
+      "title": "Unternehmen",
+      "items": [
+        "Über uns",
+        "Unser Prozess",
+        "Erfolgsgeschichten",
+        "Karriere",
+        "Partner",
+        "Blog"
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "items": [
+        "Hilfe-Center",
+        "Dokumentation",
+        "API-Referenz",
+        "Systemstatus",
+        "Kundensupport",
+        "Community"
+      ]
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "items": [
+        "Datenschutzrichtlinie",
+        "Nutzungsbedingungen",
+        "Cookie-Richtlinie",
+        "DSGVO-Konformität",
+        "Datenschutz",
+        "Haftungsausschluss"
+      ]
+    },
+    "brandDesc": "Zukunft gestalten durch Sprache, Übersetzung und verlässliche Begleitung nach Deutschland.",
+    "copyright": "Alle Rechte vorbehalten.",
+    "availableIn": "Verfügbar in:",
+    "quickLinks": "Schnelllinks"
+  },
+  "notFound": {
+    "title": "Hoppla!",
+    "subtitle": "Wir konnten die gesuchte Seite nicht finden",
+    "goHome": "Zur Startseite"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolgreich!"
+  },
+  "cards": {
+    "ai": {
+      "title": "KI in Ihrer Arbeit",
+      "desc": "Automatisierung & Intelligenz"
+    },
+    "legal": {
+      "title": "Juristische Übersetzung",
+      "desc": "Zertifiziert & Präzise"
+    },
+    "study": {
+      "title": "Studium in Deutschland",
+      "desc": "Migrationsunterstützung"
+    },
+    "corporate": {
+      "title": "Unternehmenslösungen",
+      "desc": "Digitale Transformation"
+    }
+  },
+
+  "mission": {
+    "subtitle": "Unsere Mission",
+    "title":"Ihr Weg nach Deutschland, klar und sicher",
+    "intro": "Unsere Mission ist es, Menschen auf ihrem Weg nach Deutschland zu unterstützen. Mit beglaubigten Übersetzungen, verlässlicher Migrationsberatung sowie Hilfe bei Bildung und Familienzusammenführung machen wir jeden Schritt klar, zuverlässig und sorgenfrei."
+  },
+  "vision": {
+    "subtitle": "Unsere Vision",
+    "title":"Eine Welt ohne Sprachgrenzen",
+    "intro": "Wir glauben, dass kein Traum an der Sprache scheitern sollte. Unsere Vision ist es, eine Zukunft zu schaffen, in der Chancen auf Migration, Bildung und Familienzusammenführung für alle offenstehen unterstützt durch beglaubigte Übersetzungen und menschliche Fürsorge."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Bereit für Ihre Reise? Lassen Sie uns besprechen, wie wir Ihnen bei der Erreichung Ihrer Ziele helfen können.",
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "subtitle": "Füllen Sie das Formular unten aus und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "Geben Sie Ihre Telefonnummer ein",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Worum geht es?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns mehr über Ihre Anfrage...",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...", 
+      "success": "Ihre Nachricht wurde erfolgreich gesendet!",
+      "error": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+  
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "subtitle": "Kontaktieren Sie uns über einen dieser Kanäle.",
+      "addressTitle": "Adresse",
+      "emailTitle": "E-Mail",
+      "phoneTitle": "Telefon",
+      "phoneValue": "+49 123 456789",
+      "emailValue": "info@deutsolutions.com",
+      "addressValue": "Mainstraße 123, Berlin, Deutschland"
+    },
+    "social": {
+      "title": "Folgen Sie uns"
+    },
+    "map": {
+      "title": "Finden Sie uns"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": "Welche Dienstleistungen bieten Sie an?",
+      "a1": "Wir bieten deutsche Übersetzungen, Migrationsunterstützung, KI-Entwicklung und Deutschunterricht an.",
+      "q2": "Wie lange dauert eine Übersetzung?",
+      "a2": "Die Übersetzungszeit hängt von der Länge und Komplexität des Dokuments ab. Wir liefern normalerweise innerhalb von 1-3 Werktagen.",
+      "q3": "Bieten Sie beglaubigte Übersetzungen an?",
+      "a3": "Ja, wir bieten beglaubigte Übersetzungen an, die von deutschen Behörden und Institutionen akzeptiert werden.",
+      "q4": "Was sind Ihre Arbeitszeiten?",
+      "a4": "Wir arbeiten von Sonntag bis Donnerstag, 9:00 bis 18:00 Uhr UAE-Zeit. Notfallservices sind 24/7 verfügbar."
+    }
+  },
+  "privacy": {
+    "banner": {
+      "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Durch die Nutzung der Website stimmen Sie dem zu.",
+      "accept": "Akzeptieren",
+      "reject": "Ablehnen"
+    }
+  },
+  "signup": {
+    "title": "Registrieren",
+    "subtitle": "Bitte füllen Sie Ihre Daten aus, um ein Konto zu erstellen",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "selectService": "Dienstleistung wählen",
+    "service": {
+      "translation": "Übersetzung",
+      "migration": "Migration",
+      "ai": "KI",
+      "other": "Andere"
+    },
+    "submit": "Registrieren",
+    "submitting": "Wird registriert...",
+    "haveAccount": "Sie haben bereits ein Konto?",
+    "login": "Anmelden"
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Datenschutzrichtlinie",
+      "content": "Bei DEUTSOLUTIONS mit Sitz in Dubai Silicon Oasis legen wir großen Wert auf den Schutz Ihrer Privatsphäre. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Daten erfassen, verwenden und schützen, wenn Sie unsere Website und Dienstleistungen (Übersetzung, Migrationsunterstützung, KI-Lösungen, Sprachtraining) nutzen.\n\nWir erfassen personenbezogene Daten wie Name, E-Mail-Adresse und Telefonnummer, wenn Sie uns kontaktieren oder unsere Dienste nutzen. Ihre Daten werden ausschließlich zur Bereitstellung und Verbesserung unserer Services, zur Beantwortung Ihrer Anfragen und zur Einhaltung gesetzlicher Vorschriften verwendet.\n\nWir verkaufen oder teilen Ihre Daten nicht mit Dritten, außer wenn dies gesetzlich vorgeschrieben ist oder zur Erfüllung unserer Dienstleistungen notwendig ist.\n\nBei Fragen zum Datenschutz kontaktieren Sie uns bitte unter deutsolutions@gmail.com oder +971 50 330 3847."
+    },
+    "termsOfService": {
+      "title": "Nutzungsbedingungen",
+      "content": "Willkommen bei DEUTSOLUTIONS. Durch die Nutzung unserer Website und Dienstleistungen stimmen Sie den folgenden Bedingungen zu:\n\n1. Dienstleistungen: Wir bieten Übersetzungen, Migrationsunterstützung, KI-Entwicklung und Sprachtraining an.\n2. Pflichten des Nutzers: Sie verpflichten sich, korrekte Angaben zu machen und unsere Dienste rechtmäßig zu nutzen.\n3. Urheberrecht: Alle Inhalte dieser Website sind Eigentum von DEUTSOLUTIONS.\n4. Haftungsbeschränkung: Wir bemühen uns um Genauigkeit, übernehmen jedoch keine Gewähr für Fehlerfreiheit.\n5. Kontakt: Bei Fragen wenden Sie sich an deutsolutions@gmail.com oder +971 50 330 3847.\n\nDiese Bedingungen unterliegen dem Recht der VAE."
+    },
+    "cookiePolicy": {
+      "title": "Cookie-Richtlinie",
+      "content": "DEUTSOLUTIONS verwendet Cookies, um Ihre Erfahrung auf unserer Website zu verbessern. Cookies helfen uns, den Datenverkehr zu analysieren und Inhalte zu personalisieren.\n\nSie können Cookies in Ihren Browsereinstellungen verwalten oder deaktivieren. Durch die weitere Nutzung unserer Website stimmen Sie der Verwendung von Cookies zu.\n\nFür weitere Informationen kontaktieren Sie uns unter deutsolutions@gmail.com."
+    },
+    "gdprCompliance": {
+      "title": "DSGVO-Konformität",
+      "content": "DEUTSOLUTIONS verpflichtet sich zum Datenschutz gemäß der Datenschutz-Grundverordnung (DSGVO).\n\nWir verarbeiten Ihre Daten rechtmäßig, transparent und zu legitimen Zwecken. Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer Daten.\n\nFür Anfragen zur DSGVO oder zur Ausübung Ihrer Rechte schreiben Sie an deutsolutions@gmail.com."
+    },
+    "dataProtection": {
+      "title": "Datenschutz",
+      "content": "Bei DEUTSOLUTIONS behandeln wir Ihre Daten mit höchster Sorgfalt. Ihre personenbezogenen Informationen werden sicher gespeichert und sind nur autorisierten Mitarbeitern zugänglich.\n\nWir setzen technische und organisatorische Maßnahmen ein, um unbefugten Zugriff, Verlust oder Missbrauch Ihrer Daten zu verhindern.\n\nBei Fragen wenden Sie sich bitte an deutsolutions@gmail.com oder +971 50 330 3847."
+    },
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "content": "Die Informationen auf der Website von DEUTSOLUTIONS dienen ausschließlich allgemeinen Informationszwecken. Trotz größter Sorgfalt übernehmen wir keine Gewähr für die Vollständigkeit oder Richtigkeit der Inhalte.\n\nDEUTSOLUTIONS haftet nicht für Verluste oder Schäden, die aus der Nutzung unserer Website oder Dienstleistungen entstehen.\n\nFür eine verbindliche Beratung kontaktieren Sie uns bitte unter deutsolutions@gmail.com."
+    }
+  }
+} 

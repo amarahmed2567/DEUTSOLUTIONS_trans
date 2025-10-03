@@ -1,0 +1,61 @@
+.ClientsSection{
+    padding: 4rem 0;
+}
+.headercon{
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+  }
+  :lang(ar)  .headline ,.headercon{
+    line-height: 1.2;
+  }
+  .headline {
+    font-size:2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    }
+  
+  .gradient {
+    background: linear-gradient(63.61deg, #F9B434 14.16%, #E90004 86.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  
+  }
+  .bold {
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .subtext {
+    font-size: 1rem;
+    color: #5f5e5e;
+    font-style: italic;
+    line-height: 1.6;
+    margin: .7rem auto;
+    width: 70%;
+  }
+
+.MySwiper{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    user-select: none;
+}
+.ClinteImgBox{
+   width: 200px;
+   height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+}
+.ClinteImg{
+    width: 120px;
+    object-fit: cover ;
+}
