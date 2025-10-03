@@ -2,7 +2,7 @@ import {  Routes, Route } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/HomePage/HomePage'
 import Navbar from './components/Navbar/Navbar'
-import About from './Components/About/About'
+import About from './components/About/About'
 import NotFound from './pages/NotFound/NotFound'
 import Footer from './components/Footer/Footer'
 import { motion,AnimatePresence } from "framer-motion";
