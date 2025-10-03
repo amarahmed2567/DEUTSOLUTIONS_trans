@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/HomePage'
 import Navbar from './components/Navbar/Navbar'
 import NotFound from './pages/NotFound/NotFound'
 import Footer from './components/Footer/Footer'
+import ScrollToTop from './components/Utils/ScrollToTop'
 import { motion,AnimatePresence } from "framer-motion";
 import AboutPage from './pages/AboutPage/AboutPage'
 import ContactUsPage from './pages/ContactUsPage/ContactUsPage'
@@ -16,7 +17,7 @@ function App() {
       <Navbar />
       
      <div className="AppContainer"> 
-
+         <ScrollToTop />
      <AnimatePresence mode="wait">
         <Routes>
           //HomePage

@@ -2,8 +2,8 @@ import React from "react";
 import Home from "../../components/Home/Home";
 import TextHomeSlider from "../../components/Sliders/HomeSliders/TextHomeSlider/TextHomeSlider";
 
-import About from "../../Components/About/About";
-import Services from "../../Components/Services/Services";
+import About from "../../components/About/About";
+import Services from "../../components/Services/Services";
 // import StartNowSlider from "../../Components/Sliders/HomeSliders/StartNowSlider/StartNowSlider";
 // import Testimonials from "../../Components/Testimonials/Testimonials";
 import { motion } from "framer-motion";
